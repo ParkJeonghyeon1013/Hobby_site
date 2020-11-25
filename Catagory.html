@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>카테고리</title>
+<style type="text/css">
+	#Menubar{
+		background: black;
+		color: white;
+	}
+	#MainCatagory:hover{
+		background-color : green;
+	}
+	ul{
+		padding: 10px 0px 10px 10px; 
+	}
+	ul li:hover{
+		background-color : yellowgreen;
+	}
+</style>
+</head>
+<!--카테고리 추가 사항
+	: 마우스 위에 올려놨을 때 색깔 변화
+	: 주 카테고리 4개만 보이다가 클릭하면 하위 사항 보이게 하기-->
+<body>
+<nav id = "Menubar">
+	<table>
+	<ul>
+		<details>
+		<summary id="MainCatagory">영상 콘텐츠</summary>
+			<ol>
+				<li><a href="ContentVideo\ContentVideo1_drama.html" target="MainContent">드라마</a></li>
+				<li><a href="ContentVideo\ContentVideo2_comedy.html" target="MainContent">예능</a></li>
+				<li><a href="ContentVideo\ContentVideo3_movie.html" target="MainContent">영화
+				</a></li>
+				<li><a href="ContentVideo\ContentVideo4_documentary.html" target="MainContent">다큐멘터리</a></li>
+			</ol><br>
+		</details><br>
+
+		<details>
+		<summary id="MainCatagory">독서</summary>
+			<ol>
+				<li title="책을 원작으로 제작된 드라마/영화의 내용과 원작 도서 비교"><a href="ContentBook\ContentBook1_compare.html" target="MainContent">원작과 비교</a></li>
+				<li title="상상력을 풍부하게! 감수성을 풍부하게 하는 도서"><a href="ContentBook\ContentBook2_novel.html" target="MainContent">소설</a></li>
+				<li title="정서적 발전 + 실무능력 업그레이드를 위한 도서"><a href="ContentBook\ContentBook3_develop.html" target="MainContent">자기개발서</a></li>
+			</ol><br>
+		</details><br>
+
+		<details>
+		<summary id="MainCatagory">음악</summary>
+			<ol>
+				<li title="드라마, 예능, 영화 콘텐츠 속 좋았던 음악을 찾아 듣는 재미!"><a href="ContentMusic\ContentMusic1_finding.html" target="MainContent">음악을 찾는 재미</a></li>
+				<li title="음악 + 뮤직비디오까지 완벽한 노래를 찾아보는 재미!"><a href="ContentMusic\ContentMusic2_watching.html" target="MainContent">음악을 보는 재미</a></li>
+				<li title="대중의 귀를 사로잡은 차트-인한 음악을 따라 듣는 재미!"><a href="ContentMusic\ContentMusic3_following.html" target="MainContent">음악을 따라 듣는 재미</a></li>
+			</ol><br>
+		</details><br>
+
+		<details>
+		<summary id="MainCatagory">요리</summary>
+			<ol>
+				<li><a href ="ContentCook\ContentCook1_simple.html" target="MainContent">간단 요리</a></li>
+				<li><a href ="ContentCook\ContentCook2_normal.html" target="MainContent">요리다운 요리</a></li>
+			</ol>
+		</details><br>
+
+	</table>
+</nav>
+</body>
+</html>

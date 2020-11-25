@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="author" content="박정현" 
+	name="description" contents="코로나 집콕 생활 중 추천하는 취미 생활"
+	name="keywords" content="코로나, 집콕, 취미, hobby, quarantine">
+	<title>My_hobby</title>
+
+	<!--나중에 기본 배경색은 검정 / 텍스트색 흰색으로 변경해주기-->
+	<style type="text/css">
+		div{
+			width: 100%;
+			height: 300px;
+			border: 1px solid #000;
+		}
+		div.left{
+			width: 30%;
+			float: left;
+			box-sizing: border-box;
+			background: black;
+		}
+		div.right{
+			width: 70%;
+			float: right;
+			box-sizing: border-box;
+			background: yellow;
+		}
+
+		body {
+			background-color:;
+
+		}
+		body h2{
+			color:;
+		}
+		#MainCategory {
+			width: 15em;
+			height: 50em;		
+		}
+		#MainContent {
+			width: 85em;
+			height: 50em;
+			overflow: scroll;
+		}
+	</style>
+</head>
+<body>
+<h2>코로나 집콕 생활 중 추천하는 취미 생활</h2>
+<hr>
+<div>
+	<span class ="L">
+		<iframe id="MainCategory" 
+				src="catagory.html"
+				align="left">
+		</iframe>
+	</span>
+	<!--브라우저 사이즈에 맞춰 유동적으로 변화할 수 있도록 변경해주기-->
+	<span class="R">
+		<iframe id="MainContent"
+				name="MainContent"
+				align="left">
+		</iframe>
+	</span>
+</div>	
+</body>
+</html>
